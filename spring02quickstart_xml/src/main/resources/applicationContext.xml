@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    bean元素：描述当前对象需要spring容器管理
+    id属性：对象名字，对面都用id获取对象啦
+    class：id对象所在的class（要写全名）
+    -->
+    <bean id = "service" class = "hello.MessageService"></bean>
+    <!--
+    下面的第一个service指的是service属性，也就是没创建的对象，第二个service和上面的id="service"是一样的，都是对象
+    -->
+    <bean id = "printer" class="hello.MessagePrinter">
+        <property name="service" ref="service"></property>
+
+    </bean>
+</beans>
