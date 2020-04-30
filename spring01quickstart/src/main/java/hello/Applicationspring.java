@@ -12,7 +12,7 @@ public class Applicationspring {
 //        MessageService service = new MessageService();
 //        MessagePrinter printer = new MessagePrinter();
 //
-//        //设置打印机属性
+//        //设置打印机属性(这一步不能缺，否则会发生空指针。因为printMessage里有service)
 //        printer.setService(service);
 //
 //        //打印属性
@@ -20,6 +20,14 @@ public class Applicationspring {
 
         //基于注解，用spring容器创建对象，下面的实现类的参数写注解下面一行的类名。
         ApplicationContext context = new AnnotationConfigApplicationContext(Applicationspring.class);
+
+        //获取bean对象。
+        // 想获取由spring容器创建的对象，使用context就可以啦~（肯定不能用new，都已经创建好了，new它干嘛）
+        MessageService service = context.getBean(MessageService.class);
+        MessagePrinter printer = context.getBean(MessagePrinter.class);
+        System.out.println(printer);
+        printer.setService(service);
+        printer.printMessage();
 
 
     }
