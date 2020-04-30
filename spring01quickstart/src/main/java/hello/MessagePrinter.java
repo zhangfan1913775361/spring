@@ -1,5 +1,6 @@
 package hello;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -17,6 +18,7 @@ public class MessagePrinter {
     //因为要用MP调用MS的功能，所以把MS类作为MP的成员变量,才能建立MP和MS的关联关系
     private MessageService service;
 
+    @Autowired
     public void setService(MessageService service) {
         this.service = service;
     }

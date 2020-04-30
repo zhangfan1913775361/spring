@@ -23,10 +23,12 @@ public class Applicationspring {
 
         //获取bean对象。
         // 想获取由spring容器创建的对象，使用context就可以啦~（肯定不能用new，都已经创建好了，new它干嘛）
-        MessageService service = context.getBean(MessageService.class);
+
+        //因为在setService方法上加入了AutoWired注解，所以可以自动调用setService方法了，所以下面注释的三行都可以不写了
+//        MessageService service = context.getBean(MessageService.class);
         MessagePrinter printer = context.getBean(MessagePrinter.class);
-        System.out.println(printer);
-        printer.setService(service);
+//        System.out.println(printer);
+//        printer.setService(service);
         printer.printMessage();
 
 
