@@ -6,9 +6,30 @@ import org.springframework.stereotype.Component;
 @Component
 public class CDPlayer {
 
+//    @Autowired
     private compactDisc cd;
 
+//    @Autowired
     private Power power;
+
+    //使用alt+insert构建set方法
+
+
+//    @Autowired
+//    public void setCd(compactDisc cd) {
+//        this.cd = cd;
+//    }
+//
+//    @Autowired
+//    public void setPower(Power power) {
+//        this.power = power;
+//    }
+
+    @Autowired
+    public void prepare(compactDisc cd,Power power){
+        this.cd = cd;
+        this.power = power;
+    }
 
     public CDPlayer() {
         super();
