@@ -2,7 +2,7 @@ package soundsystem;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class compactDisc {
     public compactDisc() {
         super();

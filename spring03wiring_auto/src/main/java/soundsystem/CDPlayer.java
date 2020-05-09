@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class CDPlayer {
 
-//    @Autowired
+    @Autowired(required = false)
     private compactDisc cd;
 
-//    @Autowired
+    @Autowired
     private Power power;
 
     //使用alt+insert构建set方法
@@ -25,11 +25,11 @@ public class CDPlayer {
 //        this.power = power;
 //    }
 
-    @Autowired
-    public void prepare(compactDisc cd,Power power){
-        this.cd = cd;
-        this.power = power;
-    }
+//    @Autowired
+//    public void prepare(compactDisc cd,Power power){
+//        this.cd = cd;
+//        this.power = power;
+//    }
 
     public CDPlayer() {
         super();
@@ -45,16 +45,18 @@ public class CDPlayer {
 //    }
 
 
-    @Autowired
-    public CDPlayer(compactDisc cd, Power power) {
-        this.cd = cd;
-        this.power = power;
-        System.out.println("CDPlayer的多参数构造函数。。。。");
-    }
+//    @Autowired
+//    public CDPlayer(compactDisc cd, Power power) {
+//        this.cd = cd;
+//        this.power = power;
+//        System.out.println("CDPlayer的多参数构造函数。。。。");
+//    }
 
     public void play(){
         power.supply();
         System.out.println("调用了CDPlayer的play方法。。。。");
-        cd.play();
+        if (cd != null){
+            cd.play();
+        }
     }
 }
