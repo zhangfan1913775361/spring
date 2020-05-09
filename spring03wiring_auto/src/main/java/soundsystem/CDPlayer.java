@@ -44,7 +44,6 @@ public class CDPlayer {
 //        System.out.println("CDPlayer的有参构造函数。。。。");
 //    }
 
-
 //    @Autowired
 //    public CDPlayer(compactDisc cd, Power power) {
 //        this.cd = cd;
