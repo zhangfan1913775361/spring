@@ -1,24 +1,23 @@
-package com.zfedu.demo.service;
+package com.zfedu.demo.web;
 
 import com.zfedu.demo.AppConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import javax.annotation.Resource;//不用spring时，可以用jdk自带的注解，
-
+/**
+ * Created by ZhangFan 2020/5/10
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)
-public class UserServiceTest {
-
-//    @Autowired
-//    @Qualifier("normal")
-    @Resource(name = "userServiceNormal")//jdk自带的注解，替代上面两行
-    private UserService userService;
+public class UserControllerTest {
+    @Autowired
+    private UserController userController;
 
     @Test
     public void testAdd(){
-        userService.add();
+        userController.add();
     }
 }
