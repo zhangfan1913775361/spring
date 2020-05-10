@@ -19,9 +19,9 @@ public class AppConfig {
     }
 
     @Bean
-    public UserServiceNormal userServiceNormal(){
+    public UserServiceNormal userServiceNormal(UserDao userDao){
         System.out.println("创建UserService对象bean自动调用");
-        UserDao userDao = userDaoNormal();
+//        UserDao userDao = userDaoNormal();
         return new UserServiceNormal(userDao);
         }
 }
