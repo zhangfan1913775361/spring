@@ -18,6 +18,10 @@ public class UserServiceNormal implements UserService {
         this.userDao = userDao;
     }
 
+    public void setUserDao(UserDao userDao) {
+        this.userDao = userDao;
+    }
+
     public void add() {
         userDao.add();
     }
