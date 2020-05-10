@@ -1,6 +1,6 @@
 package com.zfedu.demo.service;
 
-import com.zfedu.demo.AppConfig;
+import com.zfedu.demo.config.AppConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

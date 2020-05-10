@@ -1,6 +1,6 @@
 package com.zfedu.demo.web;
 
-import com.zfedu.demo.AppConfig;
+import com.zfedu.demo.config.AppConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
