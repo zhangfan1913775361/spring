@@ -23,7 +23,10 @@ public class NotepadTest {
         //下面这行是用XML配置的加载方式，如果用注解，则不用写
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         Notepad notepad1 = (Notepad)context.getBean("notepad");
-        Notepad notepad2 = (Notepad)context.getBean("notepad");
-        System.out.println(notepad1 == notepad2);//如果只是两个
+//        Notepad notepad2 = (Notepad)context.getBean("notepad");
+//        System.out.println(notepad1 == notepad2);//如果只是两个
+
+        context.destroy();
+        context.close();
     }
 }

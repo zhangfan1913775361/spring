@@ -22,7 +22,7 @@ public class NotepadTest2 {
 
     @Test
     public void test01(){
-        System.out.println(notepad1 == notepad2);
+//        System.out.println(notepad1 == notepad2);
 
     }
 }
