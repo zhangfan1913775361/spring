@@ -14,6 +14,6 @@ import org.springframework.stereotype.Component;
 public class Notepad2 {
     public Notepad2() {
         super();
-        System.out.println("Notepad的构造函数。。。。。"+this.toString());
+        System.out.println("Notepad2的构造函数。。。。。"+this.toString());
     }
 }
