@@ -23,7 +23,7 @@ public class PersonFactoryTest {
 
     @Test
     public void test01(){
-//        System.out.println(person1);
+        System.out.println(person1);
         System.out.println(person2.createPerson2());
 
     }
