@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--静态工厂-->
+    <bean id="person1" class="com.zfedu.demo.PersonFactory" factory-method="createPerson1"/>
+
+    <!--实例工厂 由于是非静态方法，所以要创建对象PersonFactory去调用-->
+    <bean id="PersonFactory" class="com.zfedu.demo.PersonFactory"/>
+    <bean id="Person2" factory-bean="PersonFactory" factory-method="createPerson2"/>
+
+</beans>

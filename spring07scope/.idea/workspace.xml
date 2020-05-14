@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="974aee3f-35b9-47c9-8ac2-3f1ba2834cac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring08factory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring08factory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring08factory/src/main/java/com/zfedu/demo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring08factory/src/main/java/com/zfedu/demo/PersonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring08factory/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring08factory/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +22,7 @@
     <session id="-826374923">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="2" />
@@ -35,7 +33,7 @@
           <entry key="class" value="1" />
           <entry key="java" value="8" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -43,20 +41,20 @@
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="8" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="836" />
-          <entry key="txt" value="84" />
+          <entry key="java" value="837" />
+          <entry key="txt" value="99" />
           <entry key="xml" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="836" />
-          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="JAVA" value="837" />
+          <entry key="PLAIN_TEXT" value="99" />
           <entry key="XML" value="61" />
         </counts>
       </usages-collector>
@@ -64,13 +62,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="230">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
-                <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
@@ -82,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTestAutowired.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="104">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="138">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#592#593#0" expanded="true" />
@@ -107,11 +113,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="195">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="161">
               <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="190">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -142,17 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="264">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -160,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="314">
               <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -197,12 +200,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTestAutowired.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zfedu/demo/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad3.java" />
       </list>
     </option>
@@ -221,8 +224,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="93" />
-    <option name="y" value="-36" />
+    <option name="x" value="-383" />
+    <option name="y" value="348" />
     <option name="width" value="1641" />
     <option name="height" value="999" />
   </component>
@@ -274,6 +277,13 @@
               <item name="spring07scope" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring07scope" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring07scope" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring07scope" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,7 +310,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589439848772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589441077771" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -431,7 +441,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589274268239</updated>
       <workItem from="1589274270698" duration="4739000" />
-      <workItem from="1589428585256" duration="6701000" />
+      <workItem from="1589428585256" duration="7843000" />
     </task>
     <task id="LOCAL-00001" summary="spring的加载">
       <created>1589298677276</created>
@@ -468,22 +478,17 @@
       <option name="project" value="LOCAL" />
       <updated>1589434332923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="自定义初始化和销毁方法">
+      <created>1589439904388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589439904388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NotepadTest3 - 2020.05.14 at 13h 45m 29s.xml">
-      <configuration name="NotepadTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NotepadTest3_test01 - 2020.05.14 at 13h 45m 47s.xml">
-      <configuration name="NotepadTest3.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NotepadTest3 - 2020.05.14 at 13h 46m 12s.xml">
-      <configuration name="NotepadTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NotepadTest_test1 - 2020.05.14 at 14h 43m 14s.xml">
-      <configuration name="NotepadTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NotepadTest - 2020.05.14 at 14h 43m 24s.xml">
       <configuration name="NotepadTest" configurationId="JUnit" />
     </history-entry>
@@ -502,13 +507,24 @@
     <history-entry file="NotepadTest2 - 2020.05.14 at 14h 55m 57s.xml">
       <configuration name="NotepadTest2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NotepadTest3_test01 - 2020.05.14 at 15h 02m 42s.xml">
+      <configuration name="NotepadTest3.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NotepadTest3 - 2020.05.14 at 15h 02m 57s.xml">
+      <configuration name="NotepadTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NotepadTest3 - 2020.05.14 at 15h 03m 12s.xml">
+      <configuration name="NotepadTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NotepadTest3_test01 - 2020.05.14 at 15h 04m 07s.xml">
+      <configuration name="NotepadTest3.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11440000" />
+    <option name="totallyTimeSpent" value="12582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23605497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -519,7 +535,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2366548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28113878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,47 +600,12 @@
     <MESSAGE value="bean的作用域" />
     <MESSAGE value="用自动装配定义bean的作用域" />
     <MESSAGE value="在Notepad3中设置了javaConfig的控制bean作用域" />
-    <option name="LAST_COMMIT_MESSAGE" value="在Notepad3中设置了javaConfig的控制bean作用域" />
+    <MESSAGE value="自定义初始化和销毁方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义初始化和销毁方法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTestAutowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -640,22 +621,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#341#342#0" expanded="true" />
@@ -663,17 +633,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="264">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="138">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#592#593#0" expanded="true" />
@@ -684,10 +664,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTestAutowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zfedu/demo/Notepad3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="195">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zfedu/demo/NotepadTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
