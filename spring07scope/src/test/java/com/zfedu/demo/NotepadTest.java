@@ -8,8 +8,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class NotepadTest {
     /**
-     * (1)无论是否主动获取bean对象，spring的上下文已加载就创建对象。（不写getbean照样有）
+     * singleton
+     * (1)无论是否主动获取bean对象，spring的上下文一加载就创建对象。（不写getbean照样有）
      * (2)无论你注入几次，获得的都是通一个对象。
+     *
+     * prototype
+     * （1）spring的上下文加载时，不会创建对象！！
+     * (2) 每次获取都是新的对象
+     *
      */
 
     @Test

@@ -22,8 +22,6 @@ public class NotepadTestAutowired {
 
     @Test
     public void test01(){
-//        Notepad notepad1 = (Notepad)context.getBean("notepad");
-//        Notepad notepad2 = (Notepad)context.getBean("notepad");
         System.out.println(notepad1 == notepad2);//无论注入多少次，你最终获取的都是同一个，所以为true；
 
     }
